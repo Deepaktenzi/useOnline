@@ -1,11 +1,21 @@
 {
-  "name": "@react/useonline",
+  "name": "reactjs-hooks",
   "version": "1.0.0",
   "description": "A react hook for checking User connected to Internet or not return boolean value",
   "main": "index.js",
   "scripts": {
+    "publish": "npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepaktenzi/useOnline"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "connectivity"
+  ],
   "author": "Deepak Negi",
   "license": "ISC"
 }
